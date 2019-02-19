@@ -1,0 +1,237 @@
+/* 
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+header {
+  background: url(/img/header-main.png) center top no-repeat;
+  height: 100vh;
+  background-color: #353432;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: 100% auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto Condensed';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+nav {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+}
+.navbar-border{
+  width: 1170px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar-text {
+  width: 660px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.nav-bar-social {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #f5f5f5;
+  font-family: 'Roboto';
+  font-size: 153px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1.92px;
+  margin-top: 270px;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.h3-power{
+  color: #11749e;
+  line-height: 51.19px;
+  text-transform: uppercase;
+  /* Text style for "Power by P" */
+  letter-spacing: 7.88px;
+}
+.scroll-down-text {
+  color: #ffffff;
+  font-family: 'Roboto Condensed';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.button-scroll-down {
+  width: 65px;
+  height: 65px;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.awesome {
+  height: 738px;
+  background-color: #11749e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.awesome-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin: 100px 0 60px;
+}
+
+.awesome-title-background {
+  opacity: 0.18;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 247px;
+  font-weight: 700;
+  line-height: 210.64px;
+  text-transform: uppercase;
+}
+
+.awesome-title-text {
+  position: absolute;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 45.06px;
+  text-transform: uppercase;
+}
+
+.awesome-block {
+  display: flex;
+}
+
+.awesome-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  margin-right: 30px;
+}
+.awesome-item:last-child{
+  margin-right: 0;
+}
+
+.awesome-item-feature {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #2e85aa;
+}
+
+h4 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+
+.features {
+  color: #ffffff;
+  font-family: 'Roboto Condensed';
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: justify;
+}
+figure{
+  width: 50%;
+}
+figure>img{
+  width: 100%;
+  height: 100%;
+}
+.news{
+  display: flex;
+  flex-direction: column;
+}
+.news-block-1{
+  display: flex;
+}
+.news-block-2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.news-text-block{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news-text-block-black{
+  background-color: #222222;
+}
+.news-text{
+  width: 500px;
+}
+.news-text-data{
+  font-family: "Gotham - Book";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.color-black{
+  color: #222222;
+}
+.h3-news{
+
+}
+.text-news{
+  margin-top: 0;
+}
